@@ -1,0 +1,905 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.Home_container__bCOhY {
+	display: block;
+	width: 101%;
+	height: 101%;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/background.1ef77a53.png);
+	background-position: center;
+	position: fixed;
+	background-size: cover;
+  }
+
+.Home_main__nLjiQ {
+  min-height: 100vh;
+  padding: 1rem 0;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home_footer____T7K {
+  display: flex;
+  flex: 1 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home_footer____T7K a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.Home_title__T09hD a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.Home_title__T09hD a:hover,
+.Home_title__T09hD a:focus,
+.Home_title__T09hD a:active {
+  text-decoration: underline;
+}
+
+.Home_title__T09hD {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.Home_title__T09hD,
+.Home_description__41Owk {
+  text-align: center;
+}
+
+.Home_description__41Owk {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.Home_code__suPER {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.Home_grid__GxQ85 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.Home_card___LpL1 {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.Home_card___LpL1:hover,
+.Home_card___LpL1:focus,
+.Home_card___LpL1:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.Home_card___LpL1 h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.Home_card___LpL1 p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.Home_logo__27_tb {
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/icon.bf9770dd.png);
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	justify-content: center;
+	margin-left: 85px;
+
+}
+
+.Home_homepage__o_ei3 {
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+	transform: scale(1);
+}
+
+.Home_homepageImg__fcRDd {
+	display: block;
+	display: flex;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/border.102f0b91.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 800px;
+	height: 680px;
+	top: -45px;
+}
+
+.Home_banner__WnS5R {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/banner.adb0bb37.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 350px;
+	height: 270px;
+	position: absolute;
+	left: 279px;
+	top: 50px;
+}
+
+
+.Home_a__yA5yC{
+	display: block;
+    position: absolute;
+    padding: 18px 24px;
+    color: #f5f5f5;
+	left: 360px;
+	top: 437px;
+	border: 6px solid #db3eb1;
+	border-radius:15px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 25px;
+	filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+	transition: .5s;
+  }
+  
+  .Home_a__yA5yC:hover {
+	display: block;
+	position: absolute;
+	color: rgb(255, 255, 255);
+	background-color: #db3eb1;
+	filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+  }
+
+  
+.Home_loading__IsZ5F {
+		display: block;
+		background-image: url(/04-zkapp-browser-ui/_next/static/media/loading.f85314d9.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 140px;
+		height: 155px;
+		position: absolute;
+		left: 370px;
+		top: 280px;
+}
+
+.Home_getLoading__Ml8Nf {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getLoading.f85314d9.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 85px;
+	height: 76px;
+	position: absolute;
+	left: 878px;
+	top: 63px;
+}
+
+.Home_sendLoading__Zkd01 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getLoading.f85314d9.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 345px;
+	top: 240px;
+}
+
+.Home_sendCheck__xMz4p {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/check.7d473ba8.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 260px;
+	height: 260px;
+	position: absolute;
+	left: 320px;
+	top: 215px;
+}
+
+.Home_sendDone__abENy {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/senddone.5b1234bb.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	left: 255px;
+	top: 310px;
+}
+
+.Home_caution__VEpHP {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/caution.6c816400.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 285px;
+	height: 220px;
+	position: absolute;
+	left: 310px;
+	top: 215px;
+}
+
+.Home_succes__k1IzW {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/succes.7d473ba8.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 275px;
+	height: 245px;
+	position: absolute;
+	left: 313px;
+	top: 220px;
+}
+
+.Home_statusTxt1__NcQ5i {
+	display: block;
+	position: absolute;
+    padding: 5px 8px;
+    color: #f5f5f5;
+	left: 340px;
+	top: 447px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 19px;
+
+}
+
+.Home_statusTxt__dVex8 {
+	display: block;
+	position: absolute;
+    padding: 5px 8px;
+    color: #f5f5f5;
+	left: 325px;
+	top: 447px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 19px;
+
+}
+
+.Home_statusSendTxt___A48X {
+	display: block;
+	position: absolute;
+    padding: 5px 8px;
+    color: #f5f5f5;
+	left: 290px;
+	top: 447px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 19px;
+
+}
+
+.Home_statusSendTxt2__kg99t {
+	display: block;
+	position: absolute;
+    padding: 5px 8px;
+    color: #f5f5f5;
+	left: 328px;
+	top: 445px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 24px;
+
+}
+
+.Home_statusSendTxt3__WtXce {
+	display: block;
+	position: absolute;
+    padding: 5px 8px;
+    color: #f5f5f5;
+	left: 328px;
+	top: 445px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 24px;
+
+}
+
+.Home_statusSendTxt4__8JCRE {
+	display: block;
+	position: absolute;
+    padding: 5px 8px;
+    color: #f5f5f5;
+	left: 265px;
+	top: 448px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 22px;
+
+}
+
+.Home_walletLink__QYgFg {
+	display: block;
+	position: absolute;
+    padding: 15px 20px;
+    color: #f5f5f5;
+	left: 338px;
+	top: 437px;
+	border: 6px solid #db3eb1;
+	border-radius:15px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 16px;
+	filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+	transition: .5s;
+}
+
+.Home_walletLink__QYgFg:hover {
+	display: block;
+	position: absolute;
+	color: rgb(255, 255, 255);
+	background-color: #db3eb1;
+	filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+  }
+
+
+.Home_walletTxt__aVJtU {
+	display: block;
+	position: absolute;
+	left: 210px;
+	top: 350px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_faucetTxt__R0HSg {
+	display: block;
+	position: absolute;
+	left: 215px;
+	top: 350px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_faucetHere__TRzkn {
+	display: block;
+	position: absolute;
+    padding: 15px 20px;
+    color: #f5f5f5;
+	left: 348px;
+	top: 432px;
+	border: 6px solid #db3eb1;
+	border-radius:15px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 20px;
+	filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+	transition: .5s;
+}
+
+.Home_faucetHere__TRzkn:hover {
+	display: block;
+	position: absolute;
+	color: rgb(255, 255, 255);
+	background-color: #db3eb1;
+	filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+  }
+
+.Home_backNoAccount__s1McX {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/backBtn1.eddeb3f0.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 140px;
+	height: 95px;
+	position: absolute;
+	left: 205px;
+	top: 110px;
+}
+
+.Home_backNoAccount__s1McX:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/backBtn2.cbc88592.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 140px;
+	height: 95px;
+	position: absolute;
+	left: 205px;
+	top: 110px;
+}
+
+.Home_backNoWallet__IBr_n {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/backBtn1.eddeb3f0.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 140px;
+	height: 95px;
+	position: absolute;
+	left: 205px;
+	top: 110px;
+}
+
+.Home_backNoWallet__IBr_n:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/backBtn2.cbc88592.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 140px;
+	height: 95px;
+	position: absolute;
+	left: 205px;
+	top: 110px;
+}
+
+.Home_sendBtn__F6hw6{
+	display: block;
+    position: absolute;
+    padding: 11px 36px;
+    color: #f5f5f5;
+	left: 372px;
+	top: 447px;
+	border: 6px solid #db3eb1;
+	border-radius:15px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 24px;
+	filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+	transition: .5s;
+  }
+  
+  .Home_sendBtn__F6hw6:hover {
+	position: absolute;
+	display: block;
+	color: rgb(255, 255, 255);
+	background-color: #db3eb1;
+	filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+  }
+
+  .Home_sendBtn__F6hw6:active {
+	display: block;
+	position: absolute;
+    padding: 11px 36px;
+    color: #f5f5f5;
+	left: 372px;
+	top: 447px;
+	border: 6px solid #db3eb1;
+	border-radius:15px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 24px;
+	filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+	transition: .5s;
+}
+
+.Home_sendBtnDisable__6VyTK {
+	display: block;
+	position: absolute;
+    padding: 11px 36px;
+    color: #f5f5f5;
+	left: 372px;
+	top: 447px;
+	border: 6px solid #db3eb1;
+	border-radius:15px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 24px;
+	filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+	transition: .5s;
+}
+
+
+  .Home_getBtn__h_3sY{
+	display: block;
+	position: absolute;
+    padding: 8px 16px;
+    color: #f5f5f5;
+	left: 443px;
+	top: -33px;
+	border-radius:7px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 14px;
+	transition: .5s;
+  }
+  
+  .Home_getBtn__h_3sY:hover {
+	display: block;
+	position: absolute;
+	color: black;
+	background-color: #00ffff;
+	filter: drop-shadow(0 0 20px #fafafa) contrast(2) brightness(2);
+  }
+
+  .Home_getBtn__h_3sY:active {
+	display: block;
+	position: absolute;
+    padding: 8px 16px;
+    color: #f5f5f5;
+	left: 443px;
+	top: -33px;
+	border-radius:7px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 14px;
+	transition: .5s;
+}
+
+.Home_getBtnDisable__ASdt7 {
+	display: block;
+	position: absolute;
+    padding: 8px 16px;
+    color: #f5f5f5;
+	left: 443px;
+	top: -33px;
+	border-radius:7px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 14px;
+	transition: .5s;
+}
+
+
+.Home_txtState__XfTmO {
+	display: block;
+	position: absolute;
+	font-size: 20px;
+	left: 846px;
+	top: 45px;
+	width: 170px;
+	color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(255, 255, 255),
+    0 0 82px rgb(255, 255, 255),
+    0 0 92px rgb(255, 255, 255),
+    0 0 102px rgb(251, 255, 254),
+    0 0 151px rgb(255, 255, 255);
+
+}
+
+.Home_numState__RWB8u {
+	display: block;
+	position: absolute;
+	font-size: 40px;
+	left: 878px;
+	top: 63px;
+	color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(247, 255, 252),
+    0 0 82px rgb(223, 223, 223),
+    0 0 92px rgb(253, 255, 254),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(247, 247, 247);
+	animation: Home_flicker__Dde9v 1.5s infinite alternate;
+
+}
+
+@keyframes Home_flicker__Dde9v {
+    
+	0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+		text-shadow:
+		0 0 4px #fff,
+		0 0 11px #fff,
+		0 0 19px #fff,
+		0 0 40px rgb(255, 255, 255),
+		0 0 80px rgb(255, 255, 255),
+		0 0 90px rgb(255, 255, 255),
+		0 0 100px rgb(255, 255, 255),
+		0 0 150px #0fa;
+	
+	}
+	
+	20%, 24%, 55% {        
+		text-shadow: none;
+	}    
+  }
+  
+
+
+.Home_getscreen__MZw5Y{
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+}
+
+
+.Home_getscreenImg__WMr9D {
+	display: block;
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/screen.2a524646.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 370px;
+	height: 300px;
+	position: absolute;
+	left: 737px;
+	top: -90px;
+}
+
+.Home_sendscreen__P9tsM{
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+}
+
+
+
+.Home_sendscreenImg__5SKtV {
+	display: block;
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/send.5c54d995.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 650px;
+	height: 470px;
+	position: absolute;
+	left: 120px;
+	top: 70px;
+}
+
+
+.Home_closeGet__qG2td {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn1.54391634.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 65px;
+	height: 53px;
+	position: absolute;
+	left: 979px;
+	top: 20px;
+}
+
+.Home_closeGet__qG2td:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn2.91c37333.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 65px;
+	height: 53px;
+	position: absolute;
+	left: 979px;
+	top: 20px;
+}
+
+.Home_closeSend__b_1LB {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn1.54391634.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	left: 620px;
+	top: 175px;
+}
+
+.Home_closeSend__b_1LB:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn2.91c37333.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	left: 620px;
+	top: 175px;
+}
+
+.Home_github__cSqgs{
+	display: block;
+    position: absolute;
+    padding: 8px 16px;
+    color: #f5f5f5;
+	left: 575px;
+	top: -33px;
+	border-radius:7px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 14px;
+	transition: .5s;
+  }
+
+  
+  
+  .Home_github__cSqgs:hover {
+	display: block;
+    position: absolute;
+	color: black;
+	background-color: #00ffff;
+	filter: drop-shadow(0 0 20px #fafafa) contrast(2) brightness(2);
+  }
+
+
+.Home_discord__rS3ML{
+	display: block;
+    position: absolute;
+    padding: 8px 16px;
+    color: #f5f5f5;
+	left: 685px;
+	top: -33px;
+	border-radius:7px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 14px;
+	transition: .5s;
+  }
+  
+  .Home_discord__rS3ML:hover {
+	display: block;
+    position: absolute;
+	color: black;
+	background-color: #00ffff;
+	filter: drop-shadow(0 0 20px #fafafa) contrast(2) brightness(2);
+  }
+
+
+  .Home_faucet__F9SbA{
+	display: block;
+    position: absolute;
+    padding: 8px 16px;
+    color: #f5f5f5;
+	left: 806px;
+	top: -33px;
+	border-radius:7px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 14px;
+	transition: .5s;
+  }
+  
+  .Home_faucet__F9SbA:hover {
+	display: block;
+    position: absolute;
+	color: black;
+	background-color: #00ffff;
+	filter: drop-shadow(0 0 20px #fafafa) contrast(2) brightness(2);
+  }
+
+  .Home_aurawallet__Fztqj{
+	display: block;
+    position: absolute;
+    padding: 8px 16px;
+    color: #f5f5f5;
+	left: 915px;
+	top: -33px;
+	border-radius:7px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing:5px;
+	font-weight: bold;
+	font-size: 14px;
+	transition: .5s;
+  }
+  
+  .Home_aurawallet__Fztqj:hover {
+	display: block;
+    position: absolute;
+	color: black;
+	background-color: #00ffff;
+	filter: drop-shadow(0 0 20px #fafafa) contrast(2) brightness(2);
+  }
+
+@media (max-width: 600px) {
+  .Home_grid__GxQ85 {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .Home_card___LpL1,
+  .Home_footer____T7K {
+    border-color: #222;
+  }
+  .Home_code__suPER {
+    background: #111;
+  }
+  .Home_logo__27_tb img {
+    filter: invert(1);
+  }
+   
+  
+}
+
